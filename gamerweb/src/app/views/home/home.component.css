@@ -1,0 +1,26 @@
+banner-home {
+  height: 340px;
+  padding: 60px;
+  margin: 0px auto;
+  background-color: #005caa;
+}
+banner-home img{
+  height: 340px;
+  float: left;
+}
+banner-home .texto-home {
+  margin-top: 28px;
+  width: 50%;
+  font-size: 22px;
+  float: right;
+}
+banner-home .text-home h1{
+  font-size: 24px;
+  width: 40%;
+  font-weight: 500;
+}
+banner-home .texto-home p {
+  font-size: 14px;
+  margin-bottom: 40px;
+  width: 85%;
+}
