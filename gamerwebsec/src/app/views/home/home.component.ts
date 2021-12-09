@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public titulo!: string;
+  public texto!: string;
 
-  ngOnInit(): void {
+  classToDiv = {};
+
+  constructor() {
+
+    this.classToDiv = {
+      'text-success': true
+    };
+   }
+
+  ngOnInit() {
+    this.titulo! = 'Texto Modelo.'
+    this.texto! = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste explicabo iusto consequatur, cumque maxime fugit obcaecati a, dolore nisi consequuntur ea possimus veniam laboriosam tempore tenetur. Inventore, maxime reprehenderit.'
   }
-
 }
